@@ -1,1 +1,90 @@
-dbhjsd
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi YouTube</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #FF0000;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        header input[type="text"] {
+            width: 50%;
+            padding: 5px;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .content {
+            display: flex;
+        }
+        .sidebar {
+            width: 20%;
+            background-color: #f1f1f1;
+            padding: 20px;
+        }
+        .main {
+            width: 80%;
+            padding: 20px;
+        }
+        .video {
+            margin-bottom: 20px;
+        }
+        .video img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Mi YouTube</h1>
+        </div>
+        <input type="text" placeholder="Buscar...">
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Tendencias</a>
+            <a href="#">Suscripciones</a>
+        </nav>
+    </header>
+    <div class="content">
+        <div class="sidebar">
+            <h2>Categorías</h2>
+            <ul>
+                <li><a href="#">Música</a></li>
+                <li><a href="#">Deportes</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Entretenimiento</a></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="video">
+                <img src="https://www.youtube.com/watch?v=7ENhKv6yDgE" alt="Video 1">
+                <h3>Título del Video 1</h3>
+                <p>Descripción del Video 1</p>
+            </div>
+            <div class="video">
+                <img src="https://www.youtube.com/watch?v=lvmPwdWpLlY" alt="Video 2">
+                <h3>Título del Video 2</h3>
+                <p>Descripción del Video 2</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
